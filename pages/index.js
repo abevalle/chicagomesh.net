@@ -9,8 +9,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <img src="logo.png"/>
-      <h3>Future Home of Chicago Mesh Network</h3>
-      <h4>hello@chicagomes.net</h4>
+      <h3>Future Home of the Chicago Mesh Network</h3>
+      <h4>hello@chicagomesh.net</h4>
     </div>
   )
 }
