@@ -46,7 +46,7 @@ export default function Home() {
           <h2>Ready to Discuss?</h2>
           <p>Contact us for pricing and availability</p>
           <a 
-            href="mailto:hello@chicagomesh.net"
+            href="mailto:domains@valle.us"
             onClick={() => {
               gtag('event', 'contact', {
                 'event_category': 'engagement',
@@ -54,13 +54,13 @@ export default function Home() {
               });
             }}
           >
-            hello@chicagomesh.net
+            domains@valle.us
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <p>© {new Date().getFullYear()} Chicago Mesh Network Domains</p>
+        <p>© {new Date().getFullYear()} Chicago Mesh Network by <a href="https://valle.us" target="_blank" rel="noopener noreferrer">valle.us</a></p>
       </footer>
     </div>
   )
